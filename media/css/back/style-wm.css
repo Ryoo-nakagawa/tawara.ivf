@@ -1,0 +1,282 @@
+/* Media Queries による切り替え */
+
+@media only screen and (min-width: 481px) {
+
+ header h1, p.tagline {
+ text-align: left;
+ }
+ p {
+  font-size: 20px;
+  font-size: 2.0rem;
+ }
+.HBG {
+padding: 10px 0;
+height: 150px;
+background-color: #FFF;
+border-bottom: 4px solid #92007B;
+}
+header {
+padding: 0 10px;
+float: left;
+}
+nav {
+padding: 0;
+margin-top: 10px;
+float: right;
+background-color: #FFF;
+}
+ nav ul {
+   width: 67px;
+   padding: 0;
+margin: 0 20px 0 0;
+   background-color: #92007B;
+ }
+ nav ul li {
+   float:left;
+   width: 67px;
+   margin: 0;
+   text-align: center;
+   font-size: 12px;
+   font-size: 1.2rem;
+   line-height: 2.5em;
+   border-top: 1px solid #FFF;
+   border-bottom: 1px solid #FFF;
+/*border-bottom: none;*/
+ }
+nav ul li img {
+margin: 0 3px 10px 0;
+}
+ article.main blockquote p {
+   margin: 0;
+   font-size: 0.9em;
+ }
+ article {
+/*margin: 0 0 2em;*/
+  border-bottom: none;
+}
+.pankuzu {
+padding: 10px 15px 0 15px;
+font-size: 10px;
+font-size: 1.0rem;
+}
+article.main h1 {
+color: #36A6CB;
+font-size: 16px;
+font-size: 1.6rem;
+padding: 20px 0 10px 0;
+margin: 10px 15px 0 15px;
+line-height: 150%;
+border-bottom: 1px solid #36A6CB;
+}
+article.main h2 {
+color: #36A6CB;
+font-size: 16px;
+font-size: 1.6rem;
+padding: 20px 0 10px 0;
+margin: 10px 15px 0 15px;
+line-height: 150%;
+border-bottom: 1px solid #36A6CB;
+}
+.CformT {
+padding: 20px 0 10px 0;
+margin: 10px 15px 0 15px;
+}
+.CformT2 {
+padding: 20px 0 0 0;
+margin: 10px 15px 0 15px;
+}
+article.main p {
+font-size: 12px;
+font-size: 1.2rem;
+line-height: 150%;
+padding: 0;
+margin: 10px 15px;
+}
+
+.IMGlist {
+margin: 20px 15px 0 15px;
+}
+.IMGlistL {
+width: 48%;
+margin-right: 2%;
+float: left;
+}
+.IMGlistR {
+width: 48%;
+margin-left: 2%;
+float: right;
+}
+.IMGlistL img, .IMGlistR img {
+width: 100%;
+margin-bottom: 20px;
+}
+.CAPT {
+padding: 5px;
+margin: -10px 0 25px 0;
+font-size: 12px;
+font-size: 1.2rem;
+line-height: 150%;
+color: #FFF;
+background-color: #999;
+border: 1px solid #555;
+}
+
+.WRKlist, .Nlist {
+margin: 10px 15px 0 15px;
+}
+.WRKlist li {
+float: left;
+}
+
+/*4CTS*/
+.fCTSlist {
+margin: 20px 15px 0 15px;
+}
+.fC1, .fC3 {
+width: 48%;
+margin-right: 2%;
+float: left;
+}
+.fC2, .fC4 {
+width: 48%;
+margin-left: 2%;
+float: right;
+}
+.fC1 img, .fC2 img, .fC3 img, .fC4 img {
+width: 100%;
+}
+
+
+aside.side {
+margin: 0;
+padding: 0 15px;
+}
+ #sidebar1 {
+width: 48%;
+margin-right: 2%;
+float: left;
+}
+ #sidebar2 {
+width: 48%;
+margin-left: 2%;
+float: right;
+ }
+
+/*スライダー*/
+#wowslider-container1 { 
+margin: 20px 15px 30px 15px;
+}
+/* フォーム  --- --- --- --- --- --- --- --- --- --- --- --- */
+.CTS-list {
+font-size: 16px;
+font-size: 1.6rem;
+}
+.TXTinput {
+ width: 50%;
+}
+.TXTarea {
+width: 70%;
+height: 150px;
+}
+#map_canvas {
+width: 100%;
+height: 300px;
+}
+/*
+.NEWS {
+font-size: 12px;
+font-size: 1.2rem;
+line-height: 150%;
+padding: 10px;
+margin: 15px 30px 0 30px;
+border: 1px solid #36A6CB;
+}*/
+/*■■■■■end■■■■■*/ }
+
+@media only screen and (min-width: 641px) {
+nav {
+float: right;
+margin-top: 10px;
+padding: 0;
+}
+nav ul {
+width: 207px;
+padding: 0;
+margin: 0 20px 0 0;
+}
+nav ul li {
+float:left;
+width: 67px;
+margin: 0;
+text-align: center;
+border-top: none;
+border-left: 1px solid #FFF;
+border-right: 1px solid #FFF;
+border-bottom: none;
+}
+
+.Fnav {
+text-align: center;
+}
+.Fadd {
+text-align: center;
+}
+#map_canvas {
+width: 100%;
+height: 300px;
+}
+.pankuzu {
+padding: 10px 30px 0 30px;
+font-size: 10px;
+font-size: 1.0rem;
+}
+article.main h1 {
+margin: 10px 30px 0 30px;
+}
+article.main h2 {
+margin: 10px 30px 0 30px;
+}
+.CformT, .CformT2 {
+margin: 10px 30px 0 30px;
+}
+article.main p {
+margin: 10px 30px;
+}
+.IMGlist {
+margin: 20px 30px 0 30px;
+}
+.WRKlist, .Nlist {
+margin: 10px 30px 0 30px;
+}
+/*4CTS*/
+.fCTSlist {
+margin: 20px 30px 0 30px;
+}
+aside.side {
+margin: 0;
+padding: 0 30px;
+}
+/*スライダー*/
+#wowslider-container1 { 
+margin: 20px 30px 30px 30px;
+}
+/* フォーム  --- --- --- --- --- --- --- --- --- --- --- --- */
+.CTS-list {
+font-size: 14px;
+font-size: 1.4rem;
+}
+.TXTinput {
+ width: 50%;
+}
+.TXTarea {
+width: 70%;
+height: 150px;
+}
+.Fsend {
+font-size: 12px;
+margin-right: 10px;
+}
+.Freset {
+font-size: 12px;
+}
+/*■■■■■end■■■■■*/ }

@@ -1,0 +1,119 @@
+.cf { zoom: 1; }
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+
+/* ■■■■■必要要素の初期設定■■■■■ */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+width: 100%;
+margin: 0;
+padding: 0;
+color:#555;
+line-height: 100%;
+font-family: "ヒラギノ角ゴ Pro W3", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+background-color: #FBFBFB;
+background-attachment: fixed;
+}
+a {
+color: #0042FF;
+text-decoration: none;
+}
+a:visited {
+color: #0042FF;
+}
+a:hover {
+color: #867033;
+text-decoration: underline;
+}
+/* ■■■■■ベースレイアウト■■■■■ */
+
+#wrapper {
+width: 100%;
+background-color: #FFF;
+}
+.HBG {
+background-image: url(/media/ui/id-bg.gif);
+background-size: contain;
+}
+header {
+padding: 0;
+color: #fff;
+overflow: hidden;
+}
+nav {
+}
+nav a {
+color: #FFF !important;
+}
+nav a:hover {
+color: #FFF !important;
+text-decoration: underline;
+}
+
+
+#common-contents {
+ width: 100%;
+/* margin: 4em auto 2em;*/
+}
+article.main {
+ width: 100%;
+}
+section {
+ margin: 0 0 3em;
+}
+/*
+aside.side {
+ width: 100%;
+}
+*/
+aside.side a {
+color: #3550C6;
+}
+a:hover {
+color: #3550C6 !important;
+text-decoration: underline;
+}
+
+.CB {
+font-size: 1%;
+line-height: 1%;
+clear: both;
+padding: 0;
+margin: 0;
+}
+footer {
+color: #FFF;
+width: 100%;
+text-align: center;
+padding: 25px 0;
+border-top: 1px solid #5D0021; 
+background-image: url(/media/ui/id-bg.gif);
+background-size: contain;
+/*background-color: #36A6CB;*/
+}
+
+/* ■■■■■画像のスタイル指定■■■■■ */
+#common-header img {
+width: 300px;
+height: auto;
+}
+#common-banner {
+  margin: 0 0 2em;
+ }
+#common-banner img {
+  width: 100%;
+  max-width:100%;
+  height: auto;
+  border: 1px solid #f0f0f0;
+}
+.MIdmy img {
+border: 1px solid #f0f0f0;
+width: 25%;
+height: auto;
+margin: 0 !important;
+padding: 0 !important;
+}

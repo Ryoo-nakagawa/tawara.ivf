@@ -1,0 +1,345 @@
+/* Media Queries による切り替え */
+
+@media only screen and (min-width: 481px) {
+
+
+.HBG {
+padding: 0;
+height: 120px;
+}
+header {
+padding: 0;
+float: left;
+}
+
+header h1 {
+text-align: center;
+margin: 0 10px;
+padding: 0;
+}
+
+nav {
+padding: 0;
+margin-top: 55px;
+float: right;
+}
+nav ul {
+width: 140px;
+padding: 0;
+margin: 0 10px 0 0;
+ }
+ nav ul li {
+   float:left;
+   width: 67px;
+   margin: 1px 2px 1px 0;
+   text-align: center;
+   font-size: 12px;
+   font-size: 1.2rem;
+   line-height: 2.5em;
+background-color: #CFCFCF;
+border: none;
+ }
+
+.pankuzu {
+padding: 10px 20px 0 20px;
+font-size: 10px;
+font-size: 1.0rem;
+line-height: 150%;
+}
+.MAINimg {
+margin: 10px 20px;
+}
+
+article.main h1 {
+margin: 10px 20px 15px 20px;
+}
+article.main h2 {
+margin: 30px 20px 15px 20px;
+}
+article.main h3 {
+margin: 30px 20px 15px 20px;
+}
+article.main p {
+margin: 0 10px 10px 10px;
+}
+.FL {
+float: left;
+width: 48%;
+margin-right: 2%;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+.FR {
+float: right;
+width: 48%;
+margin-left: 2%;
+margin-right: 20px;
+margin-bottom: 5px;
+}
+.boxContainer {
+	margin: 0 20px;
+}
+.FL2 {
+	float: left;
+	width: 47%;
+	margin-bottom: 5px;
+}
+.FR2 {
+	float: right;
+	width: 47%;
+	margin-bottom: 5px;
+}
+
+.Staff {
+margin: 0 20px 15px 20px;
+border-bottom: 1px solid #9E667A;
+}
+
+.StaffL {
+float: left;
+width: 40%;
+margin: 0px 2% 15px 0;
+padding: 8px;
+}
+.StaffR {
+float: right;
+width: 53%;
+margin: 0;
+}
+.StaffR p {
+margin: 0 0 5px 0 !important;
+padding: 2px 0 5px 0 !important;
+}
+
+.CTSlist {
+margin: 15px 20px 10px 20px;
+}
+.CTSlistL {
+width: 48%;
+margin-right: 2%;
+float: left;
+}
+.CTSlistR {
+width: 48%;
+margin-left: 2%;
+float: right;
+}
+
+.caption {
+margin: 0 0 15px 0;
+}
+
+article.main ul {
+padding: 0;
+margin: 0 20px;
+}
+article.main ol {
+padding: 0;
+margin: 0 20px 0 28px;
+}
+article.main dl {
+padding: 0;
+margin: 0 20px;
+}
+
+aside.side {
+margin: 0;
+padding: 0 20px;
+}
+#sidebar1, #sidebar3 {
+width: 48%;
+margin-right: 2%;
+float: left;
+}
+#sidebar2, #sidebar4 {
+width: 48%;
+margin-left: 2%;
+float: right;
+ }
+.ToP {
+margin: 30px 20px 0 20px;
+}
+.LineA {
+margin: 10px 20px 0 20px;
+}
+/* テーブル */
+.Talm,
+.Tn {
+margin: 0 20px;
+}
+/*■■■TOP■■■*/
+.IMG-topV {
+margin: 0 20px;
+}
+.IMGlistA, .IMGlistC {
+margin: 0 0 15px 0;
+}
+.IMGlistB, .IMGlistD {
+margin: 0 0 15px 0;
+}
+.SUBcts {
+margin: 20px 20px 0 20px;
+}
+.SUBcts .SNS {
+margin-bottom: 15px;
+}
+
+/*■■■TOP-SUB■■■*/
+
+/* MAP --- --- --- --- --- --- --- --- --- --- --- --- */
+#map_canvas {
+width: 100%;
+height: 300px;
+}
+.map {
+margin: 15px 20px 10px 20px;
+}
+.mapOL {
+margin: 0;
+border: 1px solid #7F7F7F;
+}
+iframe {
+margin: 0;
+width: 100%;
+height: 200px;
+}
+
+/* フォーム  --- --- --- --- --- --- --- --- --- --- --- --- */
+.CTS-list {
+font-size: 16px;
+font-size: 1.6rem;
+}
+.TXTinput {
+ width: 50%;
+}
+.TXTarea {
+width: 70%;
+height: 150px;
+}
+.Fsend {
+font-size: 14px;
+margin:  0 10px 0 20px;
+}
+/*■■■■■end■■■■■*/ }
+
+@media only screen and (min-width: 641px) {
+
+nav {
+float: right;
+margin-top: 88px;
+padding: 0;
+}
+nav ul {
+width: 276px;
+padding: 0;
+margin: 0 20px 0 0;
+}
+nav ul li {
+float:left;
+width: 67px;
+margin: 0 1px;
+text-align: center;
+border-top: none;
+border-bottom: none;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.FL {
+float: left;
+width: 38%;
+margin-right: 2%;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+.FR {
+float: right;
+width: 38%;
+margin-left: 2%;
+margin-right: 20px;
+margin-bottom: 5px;
+}
+.boxContainer {
+	margin: 0 20px;
+}
+.FL2 {
+	float: left;
+	width: 47%;
+	margin-bottom: 5px;
+}
+.FR2 {
+	float: right;
+	width: 47%;
+	margin-bottom: 5px;
+}
+article.main dt {
+color: #5D0021;
+font-size: 12px;
+font-size: 1.2rem;
+line-height: 150%;
+padding: 0;
+margin: 0 20px 10px 0;
+font-weight: bold;
+float: left;
+}
+article.main dd {
+font-size: 12px;
+font-size: 1.2rem;
+line-height: 150%;
+padding: 0;
+margin: 0 0 10px 0;
+}
+.SEPdl dt {
+float: none !important;
+margin: 0 20px 5px 0 !important;
+}
+.SEPdl dd {
+margin: 0 0 15px 0; !important;
+}
+
+/*■■■TOP-SUB■■■*/
+
+.SUBcts .SNS,
+.SUBcts .NEWS {
+width: 48%;
+float: left;
+}
+.SUBcts .BLOG,
+.SUBimg {
+width: 48%;
+margin: 0;
+float: right;
+}
+.BLOGfeed {
+height: 289px;
+}
+
+
+/* MAP --- --- --- --- --- --- --- --- --- --- --- --- */
+#map_canvas {
+width: 100%;
+height: 350px;
+}
+.ITEMimgM {
+width: 48%;
+margin-right: 2%;
+float: left;
+}
+.ITEMtxtM {
+padding: 0;
+margin:  0;
+width: 48%;
+margin-left: 2%;
+float: right;
+}
+.mapOL {
+margin: 0;
+border: 1px solid #7F7F7F;
+}
+iframe {
+margin: 0;
+width: 100%;
+height: 200px;
+}
+
+/*■■■■■end■■■■■*/ }

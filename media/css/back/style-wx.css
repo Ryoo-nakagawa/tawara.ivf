@@ -1,0 +1,87 @@
+@media only screen and (min-width: 961px) {
+
+ p {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+ }
+ #wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #36A6CB;
+  border-top: none;
+ }
+ header {
+ }
+ nav {
+  padding: 0;
+ }
+ #common-contents {
+  width: auto;
+/*margin: 2em 0 1em;*/
+/*padding: 0 30px;*/
+ }
+ article {
+  border-bottom: none;
+ }
+ article.main {
+/*float: left;*/
+  width: 960px;
+  padding: 0;
+/*margin-right: 29px;*/
+/*border-right: 1px solid #f0f0f0;*/
+ }
+
+.IMGlist {
+margin: 20px 0 0 30px;
+}
+.IMGlistL, .IMGlistR {
+margin: 0 20px 0 0;
+width: 440px;
+float: left;
+}
+.IMGlistL img, .IMGlistR img {
+width: 100%;
+margin: 0 0 20px 0;
+}
+.WRKlist, .Nlist {
+margin: 10px 30px 0 30px;
+}
+
+
+/*4CTS*/
+.fCTSlist {
+margin: 20px 0 0 30px;
+}
+.fC1, .fC2, .fC3, .fC4 {
+width: 210px;
+margin: 0 20px 0 0;
+float: left;
+}
+.fC1 img, .fC2 img, .fC3 img, .fC4 img {
+width: 100%;
+}
+
+aside.side {
+margin: 0;
+padding: 0;
+}
+#sidebar1 {
+width: 440px;
+padding: 0;
+margin: 0 0 0 30px;
+float: left;
+}
+#sidebar2 {
+width: 440px;
+padding: 0;
+margin: 0 30px 0 0;
+float: right;
+}
+aside.side ul {
+margin: 0 0 30px 0;
+padding: 0;
+}
+
+/*Å°Å°Å°Å°Å°endÅ°Å°Å°Å°Å°*/ }

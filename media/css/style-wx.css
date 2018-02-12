@@ -1,0 +1,239 @@
+@media only screen and (min-width: 961px) {
+
+ p {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+ }
+ #wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #7F7F7F;
+  border-top: none;
+ }
+ header {
+ }
+ nav {
+  padding: 0;
+ }
+
+nav ul {
+width: 276px;
+padding: 0;
+margin: 0 30px 0 0;
+}
+
+ #common-contents {
+  width: auto;
+/*margin: 2em 0 1em;*/
+/*padding: 0 30px;*/
+ }
+ article {
+  border-bottom: none;
+ }
+ article.main {
+/*float: left;*/
+  width: 960px;
+  padding: 0;
+/*margin-right: 29px;*/
+/*border-right: 1px solid #f0f0f0;*/
+ }
+
+.pankuzu {
+padding: 10px 30px 0 30px;
+font-size: 10px;
+font-size: 1.0rem;
+line-height: 150%;
+}
+.MAINimg {
+margin: 10px 30px;
+}
+
+article.main h1 {
+margin: 10px 30px 15px 30px;
+}
+article.main h2 {
+margin: 30px 30px 15px 30px;
+}
+article.main h3 {
+margin: 30px 30px 15px 30px;
+}
+article.main p {
+margin: 0 20px 10px 20px;
+}
+.FL {
+margin-left: 30px;
+}
+.FR {
+margin-right: 30px;
+}
+.Staff {
+margin: 0 30px 15px 30px;
+}
+
+.CTSlist,
+.ITEMlist {
+margin: 10px 30px 10px 30px;
+}
+.CTSlistL {
+width: 435px;
+padding: 0;
+margin: 10px 0 20px 0;
+float: left;
+}
+.CTSlistR {
+width: 435px;
+padding: 0;
+margin: 10px 0 20px 0;
+float: right;
+}
+.caption {
+margin: 0;
+}
+
+article.main ul {
+padding: 0;
+margin: 0 30px;
+}
+article.main ol {
+padding: 0;
+margin: 0 30px 0 38px;
+}
+article.main dl {
+padding: 0;
+margin: 0 30px;
+}
+aside.side {
+margin: 0;
+padding: 0;
+}
+#sidebar1 {
+width: 210px;
+padding: 0;
+margin: 0 20px 0 30px;
+float: left;
+}
+#sidebar2 {
+width: 210px;
+padding: 0;
+margin: 0 20px 0 0;
+float: left;
+}
+#sidebar3 {
+width: 210px;
+padding: 0;
+margin: 0 20px 0 0;
+float: left;
+}
+#sidebar4 {
+width: 210px;
+padding: 0;
+margin: 0;
+float: left;
+}
+aside.side ul {
+margin: 0 0 30px 0;
+padding: 0;
+}
+.ToP {
+margin: 30px 30px 0 30px;
+}
+.LineA {
+margin: 10px 30px 0 30px;
+}
+
+/* テーブル */
+.Talm,
+.Tn {
+margin: 0 30px;
+}
+
+/*■■■TOP■■■*/
+.IMG-topV a:hover img,
+.SUBimg a:hover img {
+transition: opacity 0.2s linear;
+opacity: 0.6;
+}
+.IMG-topV {
+margin: 0 30px;
+}
+.IMG-topV img {
+width: 100%;
+}
+.IMGlistA, .IMGlistB, .IMGlistC {
+width: 210px;
+margin: 0 20px 15px 0;
+float: left;
+}
+.IMGlistD {
+width: 210px;
+margin: 0 0 15px 0;
+float: left;
+}
+/*■■■TOP-SUB■■■*/
+.SUBcts {
+margin: 20px 30px 0 30px;
+}
+.SUBcts .SNS.
+.SUBcts .NEWS {
+width: 440px;
+float: left;
+}
+.SUBcts .BLOG,
+.SUBimg {
+width: 430px;
+margin: 0;
+float: right;
+}
+.SUBimg img {
+width: 100%;
+}
+.SUBimg .SUBimgA,
+.SUBimg .SUBimgB,
+.SUBimg .SUBimgE,
+.SUBimg .SUBimgF {
+width: 210px;
+}
+.SUBimg .SUBimgC,
+.SUBimg .SUBimgD {
+margin-top: 20px;
+width: 210px;
+}
+/* MAP --- --- --- --- --- --- --- --- --- --- --- --- */
+#map_canvas {
+width: 100%;
+height: 400px;
+}
+.map {
+margin: 15px 30px 10px 30px;
+}
+.mapOL {
+margin: 0;
+border: 1px solid #7F7F7F;
+}
+iframe {
+margin: 0;
+width: 100%;
+height: 250px;
+}
+/* フォーム  --- --- --- --- --- --- --- --- --- --- --- --- */
+.CTS-list {
+font-size: 14px;
+font-size: 1.4rem;
+}
+.TXTinput {
+ width: 50%;
+}
+.TXTarea {
+width: 70%;
+height: 150px;
+}
+.Fsend {
+font-size: 12px;
+margin: 0 10px 0 30px;
+}
+.Freset {
+font-size: 12px;
+}
+/*■■■■■end■■■■■*/ }

@@ -1,0 +1,4 @@
+User-Agent : *
+Disallow : //contents/kangoshi.php/
+Disallow : //contents/staff-detail.php/
+Sitemap : http://www.tawara-ivf.jp/sitemap.xml

@@ -1,0 +1,315 @@
+<?php
+	require_once("../zzz/config.php");
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="ja"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7" lang="ja"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8" lang="ja"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9" lang="ja"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]> <!-->
+<html class="" lang="ja"> <!--<![endif]-->
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGW5MKG');</script>
+<!-- End Google Tag Manager -->
+
+  <meta charset="Shift_JIS">
+  <meta http-equiv="content-type" content="text/html;charset=Shift_JIS">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>看護師の部屋：Tawara IVF Clinic：静岡市の不妊治療専門病院 俵IVFクリニック</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="サプリメント, 食生活サポート, 禁煙サポート, アロマテラピー, カウンセリング">
+  <meta name="description" content="俵IVFクリニックは静岡市の不妊治療専門病院です。看護師は処置や治療説明の他に、患者様が不妊治療を行う中でのご相談をお聴きしています。不妊に関わる悩みは、相談しにくく、お一人で悩まれている方も多いと思います。医師に聞きにくい事や不安な事など、何でもご相談下さい。">
+<link rel="stylesheet" href="/media/css/normalize.css">
+<link rel="stylesheet" href="/media/css/style-base.css"><link rel="stylesheet" href="/media/css/style-w.css"><link rel="stylesheet" href="/media/css/style-wm.css"><link rel="stylesheet" href="/media/css/style-wx.css"><link rel="stylesheet" href="/media/css/style-p.css" media="print">
+<link rel="stylesheet" type="text/css" href="/media/ws/engine1/style.css" />
+  <script src="/media/js/respond.min.js"></script>
+<!--[if lt IE 9]>
+  <script type="text/javascript">document.write(unescape('%3Cscript src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'html5shiv.googlecode.com/svn/trunk/html5.js" %3E%3C/script%3E'));</script>
+<![endif]-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('a[href^=#]').click(function(){
+		var speed = 1000;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+	// BMI計算
+	$('#btn_bmi').on("click",function(){
+		var w = $('#t_weight').val();
+		var h = $('#t_height').val();
+		var bmi = "";
+		var txt = "";
+
+		if(chkNum(w) && chkNum(h)){
+			bmi = w / ( h * h );
+			bmi = bmi * 10;
+			bmi = Math.round(bmi);
+			bmi = bmi / 10;
+		}
+		$('#t_bmi').val(bmi);
+		if(bmi == ""){
+			$('#l_bmi').text("");
+		}else{
+			if(bmi < 18.5){
+				txt = "判定：痩せ";
+			}else if(bmi >= 18.5 && bmi <= 25){
+				txt = "判定：適正";
+			}else if(bmi > 25){
+				txt = "判定：肥満";
+			}
+			$('#l_bmi').text(txt);
+		}
+	});
+
+	// 入力値チェック
+	function chkNum(val){
+		var num = "0123456789."; /* 数値としてOKなもの */
+		var tmp = new Array();
+		if(val.length == 0){
+			return false;
+		}
+		for(var i=0; i<val.length; i++){
+			tmp[i]=val.substring(i,i+1);
+			var flag=num.indexOf(tmp[i]);
+			if(flag==-1){
+				alert("数値（0-9）および指定文字列（.）以外が含まれています");
+				return false;
+			}
+		}
+		//alert("OK");
+		return true;
+	}
+});
+</script>
+<script type="text/javascript" src="/media/ws/engine1/jquery.js"></script>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGW5MKG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="page">
+<div id="wrapper">
+  <div class="HBG">
+  <header id="common-header">
+    <h1><a href="/index.html"><img src="/media/ui/id.png" alt="Tawara IVF Clinic：静岡市の不妊治療専門病院 俵IVFクリニック"></a></h1>
+  </header>
+  <nav id="common-nav">
+    <ul class="cf">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/cts/contact.html">Contact</a></li>
+      <li><a href="#ctsmenu">Menu</a></li>
+      <li><a href="/en/index.html">English</a></li>
+    </ul>
+  </nav>
+  </div><!-- HBG -->
+
+  <div id="common-contents" class="cf">
+    <article class="column main">
+      <section>
+<!-- コンテンツスタート -->
+        <div class="pankuzu"><a href="/index.html">ホーム</a> &gt; 看護師の部屋</div>
+
+        <h1>看護師の部屋</h1>
+<!--
+        <div class="CTSlist">
+          <div class="CTSlistL"><a href="#C1"><img src="/media/top-img/600x300dmy.gif" alt=""></a></div>
+          <div class="CTSlistR"><a href="#C2"><img src="/media/top-img/600x300dmy.gif" alt=""></a></div>
+          <div class="CTSlistL"><a href="#C3"><img src="/media/top-img/600x300dmy.gif" alt=""></a></div>
+          <div class="CTSlistR"><a href="#C4"><img src="/media/top-img/600x300dmy.gif" alt=""></a></div>
+          <div class="CTSlistR"><a href="#C5"><img src="/media/top-img/600x300dmy.gif" alt=""></a></div>
+        </div><div class="CB"></div>
+-->
+        <p><a href="#C1">サプリメント</a></p>
+        <p><a href="#C2">食生活サポート</a></p>
+        <p><a href="#C3">禁煙サポート</a></p>
+        <p><a href="#C4">アロマテラピー</a></p>
+        
+        
+
+        <a id="C1" name="C1"></a>
+        <h2>サプリメント</h2>
+        <div class="FL"><img src="/cts/media/nurse/002.jpg" alt=""></div>
+        <p>妊娠に良いとされているサプリメントを積極的に摂取していただけるよう取り組んでいます。</p>
+        <p>サプリメントの効果を発揮させるには、長期的渡ってに摂取する必要があります。実際に卵巣内で卵子が発育したり、精巣内で精子が形成されるためには2～3カ月を要します。良い卵子や精子をつくるために、毎日の生活にサプリメントを取り入れてみませんか？</p>
+        <p>興味のある方は、スタッフまで気軽に声をお掛けください。</p>
+      <div class="CB"></div>
+
+        <h3>当クリニックでおすすめしているサプリメント</h3>
+        <p>●<b>DHEA（デヒドロエピアンドロステロン）</b></p>
+        <p>DHEAはホルモンの母とも呼ばれる成長ホルモンをはじめ、性ホルモンなどの放出を促します。DHEAは10歳頃から分泌が増加し、40歳頃から低下してきます。サプリメントを摂取し、ホルモンバランスを正常化させることで骨粗鬆症を予防したり、新陳代謝を活発にさせ美肌効果などの作用があります。また抗加齢作用を有するとされており、不妊治療において卵巣刺激に対する反応が改善されたという報告もあります。<br>
+        ご購入は、<a href="http://tawara-ivf.blog.so-net.ne.jp/2017-05-20">当院スタッフにお問い合わせ下さい。</a></p>
+<br>
+        <p>●<b>メラトニン</b></p>
+        <p>メラトニンは脳から分泌されるホルモンの一種で、昼間は少なく夜間の睡眠時に分泌量が上昇します。メラトニンは6～10歳頃に最も多くつくられ、20歳代になると約2分の1まで減少し、その後も加齢とともに減少していきます。メラトニンには睡眠作用の他に抗酸化作用もあります。活性酸素は身体を酸化させ、生活習慣病の原因となったり、細胞を傷付け老化の原因となりますが、メラトニンの抗酸化作用はそれらを抑制する作用があります。体外受精が数回不成功であった方や、FSH値が上昇した方にメラトニンを摂取していただき、良好胚獲得率を調査したところ、摂取前に比べて体外受精での良好胚数が上昇し、受精率・妊娠率の向上につながったという報告もあります。</p>
+<br>
+        <p>●<b>アルギニン・葉酸</b></p>
+        <p>アルギニンは私たちの身体をつくるアミノ酸の一種で、成長ホルモンの分泌に大きく関係し、体内の活性化、免疫反応の強化、筋肉の強化などに効果があるといわれ、肉類、ナッツ、大豆、エビ、牛乳などに多く含まれます。 葉酸はビタミンB群（8種類）の一つで、食物の分解を助け、他の栄養素の働きをスムーズにする役割があります。さらに、赤血球の形成を助け、胎児の正常な発育に寄与する栄養素です。胎児の神経管閉鎖障害の発症リスクを低下させるために、葉酸を1日0.4mg、少なくとも妊娠の1カ月以上前から摂取することが厚生省より推奨されています。ほうれん草などの緑黄色野菜やレバーに多く含まれますが、調理によって失われやすいので、サプリメントを活用し摂取していただきたい栄養素です。そこで、妊娠を希望するご夫婦におすすめしたいのが「エンゼルストーク」です。浜松医科大学産婦人科教授　金山尚裕先生が中心となって開発したサプリメントで、アルギニン1,000mg、葉酸0.2mgが含まれています。ご購入は、当院スタッフにお尋ねいただくか、<a href="http://www.angelstork.com/">エーライフエンゼルショップ</a>のホームページをご覧ください。さらに効率よく葉酸を摂取したい場合は、<a href="/cts/elevit.html">elevit:エレビット</a>をおすすめしています。
+        </p>
+        <br>
+        <p>●<b>アスタキサンチン</b></p>
+        <p>ニンジンのβカロチンやトマトのリコピンなどと同じ、カロテノイドの一種である天然の赤色色素です。自然界ではサケなどの水産生物に多く含まれ、私たちにとって古くから馴染みのある成分です。アスタキサンチンの働きとして最も有名なものが抗酸化作用で、活性酸素から細胞を守り、疲労回復などにも良い影響を与えます。アスタキサンチンの抗酸化作用はビタミンEの1,000倍ともいわれており、その働きによって細胞の老化を防ぐことができると考えられています。不妊治療における抗酸化力の効果、受精や胚の発育には細胞の損傷など酸化ストレスが関係するため、抗酸化作用のあるサプリメントを摂取することにより細胞へのダメージを軽減する効果があると言われています。精子発生、成熟過程には精巣内の酸化ストレスが関与していると推測されるため、同様の効果が期待されます。マウスの研究で先天性奇形の発生率が低下したという報告もあります。</p>
+
+<br>
+        <div class="FL"><a href="http://www.jineko.net/pregnashop/ivf.html" target="_blank"><img src="/cts/media/pregna.jpg" alt=""></a></div>
+        <p>●<b>プレグナ</b></p>
+        <p>当院では、男性･女性の身体と妊娠について意識して作られている「プレグナ」をおすすめしています。</p>
+        <p>&gt; <a href="http://www.jineko.net/pregnashop/ivf.html" target="_blank">詳細・ご購入はこちらから</a></p>
+
+      <div class="CB"></div>
+
+      <div class="ToP"><a href="#page"><img src="/media/ui/arrow2.gif" alt="">ページの先頭へ</a></div>
+
+
+        <a id="C2" name="C2"></a>
+        <h2>食生活サポート</h2>
+        <div class="FL"><img src="/cts/media/nurse/003.jpg" alt=""></div>
+        <p><b>健康な体…それは赤ちゃんにとって居心地の良い環境といえます。</b></p>
+        <p>そのために、健康な食生活を送ることが大切です。貧血・冷え性・肥満や痩せすぎなど、気になっていることはありませんか？</p>
+        <p>私たちは、みなさんと一緒に今の生活を見直し、生活習慣を改善することで健康な身体づくりを応援していきたいと考えています。</p>
+        <p>自分の状態を知る指標の１つにBMI計算があります。<br>BMI＝体重（kg）÷身長（m）×身長（m）</p><br>
+
+
+      <div>
+      <p>体重&nbsp;:&nbsp;<input type="text" value="" id="t_weight" size="5">（kg）
+      身長&nbsp;:&nbsp;<input type="text" value="" id="t_height" size="5">（m）</p>
+      <p><input type="button" id="btn_bmi" value="BMI計算">
+      <input type="text" value="" id="t_bmi" size="5">&nbsp;&nbsp;<span id="l_bmi"></span>
+      </p>
+      </div>
+
+      <div class="CB"></div>
+<br>
+        <div class="CTSlist">
+          <div class="CTSlistL">
+        <div class="txtC"><table>
+          <tr><td>BMI</td><td>18.5以下</td><td>18.5～25</td><td>25以上</td></tr>
+          <tr><td>判定</td><td>痩せ</td><td>適正</td><td>肥満</td></tr>
+        </table></div>
+<br>
+        <p class="txtR">日本肥満学会2000 参考</p>
+        </div>
+          <div class="CTSlistR">
+        <p>いかがでしょうか？<br>
+        自分の状態を知ることは、健康的な身体づくりの第一歩です。</p>
+        <p><b>食生活は主食・主菜・副菜を基本に、バランスのとれた食事を心掛けましょう。</b></p></div>
+        </div>
+        <div class="CB"></div>
+
+      <div class="ToP"><a href="#page"><img src="/media/ui/arrow2.gif" alt="">ページの先頭へ</a></div>
+
+        <a id="C3" name="C3"></a>
+        <h2>禁煙サポート</h2>
+        <div class="FL"><img src="/cts/media/nurse/004.jpg" alt=""></div>
+        <p><b>不妊治療を始めるには、まず禁煙が必要です。<br>当院では禁煙できるまでは治療に進むことができません。</b></p>
+<br>
+        <p>Q. タバコは、なぜいけないのでしょうか？</p>
+        <p>タバコは不妊と大きく関わっています。自分が吸っていなくても、副流煙にもニコチンなどの有害物質が含まれているので、自分が吸っていなくても、当然吸入されます。</p>
+        <p>夫の喫煙による妻の肺ガン発症率が１～３倍程度増加すると報告されているほどです。</p>
+        <p>不妊治療でよく使われるホルモン剤は、喫煙者の血栓症のリスクを高めることもあります。</p>
+      <div class="CB"></div>
+
+        <h3>男性の喫煙のリスク</h3>
+        <ul>
+          <li>精子の製造能力に影響</li>
+          <li>非喫煙者より、喫煙者の精子数は10～20％減少</li>
+          <li>奇形精子の発生率が上昇</li>
+        </ul>
+
+        <h3>女性の喫煙のリスク</h3>
+        <ul>
+          <li>卵巣から分泌される女性ホルモンの量が低下</li>
+          <li>卵巣で作られる卵子の老化が進む</li>
+          <li>喫煙している期間が長いほど卵巣へのダメージは大きい</li>
+        </ul>
+
+        <h3>その他のリスク</h3>
+        <ul>
+          <li>妊娠しても異常を持った胎児の発育が起こる可能性が増える</li>
+          <li>流産や先天性異常の危険が増える</li>
+          <li>妊娠中の喫煙は、早産や周産期死亡の 比率が1.2～1.4倍に上昇する</li>
+        </ul>
+
+        <h3>禁煙はお父さん、お母さんになるための一歩です。</h3>
+        <p>禁煙できずに悩んでいる方、気軽にスタッフまでご相談ください。</p>
+
+      <div class="ToP"><a href="#page"><img src="/media/ui/arrow2.gif" alt="">ページの先頭へ</a></div>
+
+        <a id="C4" name="C4"></a>
+        <h2>アロマテラピー</h2>
+        <div class="FL"><img src="/cts/media/nurse/001.jpg" alt=""></div>
+        <p><b>アロマテラピーでホッとするひと時を過ごしませんか？</b></p>
+        <p>アロマテラピーとは、植物から取り出した精油を使って心身の健康を維持し、病気にならないようにすることをいいます。古代エジプトの時代にすでに使われていた療法なのだそうです。精油はエッセンシャルオイルとも呼ばれ、植物の花、葉、果皮、樹皮、根、種子、樹脂などから抽出した天然の素材です。</p>
+        <p>私たちは、仕事や人間関係の中で色々なストレスがあり、心身に悪い影響を受けことがあります。そのような中でアロマテラピーを取り入れて心と体のバランスを保っていただきたいと思います。</p>
+        <p>当クリニックでは診察の待ち時間などにより、リラックスしていただけるよう、日本アロマ環境協会認定アロマインストラクターが毎日さまざまな香りを選んでいます。待合室や内診室、リカバリールームなどで香る精油の種類が気に入られた方は、遠慮なくスタッフへお尋ねください。</p>
+      <div class="CB"></div>
+
+        <h3>アロマテラピーの利用法</h3>
+        <div class="Tn txtL"><table>
+          <tr><th>芳香浴法</th>
+          <td>精油を香らせる方法です。ティッシュやハンカチに精油を1～2滴落として香りを楽しむと良いでしょう。アロマポット、アロマライトなどを利用するのもおすすめです。</td></tr>
+          <tr><th>沐浴法</th>
+          <td>浴槽に少しぬるめの湯を張り、5滴以下の精油を落とす方法（全身浴法)。浴槽にみぞおちまで浸かる程度の湯を張り3滴以下の精油を落とす方法（半身浴法)。手浴法、足浴法などもあります。精油濃度は３滴以下です。ドロッパービン1滴が0.05mlです。</td></tr>
+          <tr><th>トリートメント法</th>
+          <td>身体に塗ってマッサージする方法です。精油を植物油で希釈したものをトリートメントオイルといいます。これを身体に塗布します。希釈濃度は(社)日本アロマ環境協会で1%以下とされています。</td></tr>
+        </table></div>
+
+        <h3>どのような精油があるのでしょうか</h3>
+        <p>精油は200～300種類あると言われていますが、よく使用されているのは30～40種類ぐらいです。</p>
+        <div class="Tn txtL"><table>
+          <tr><th>イランイラン</th>
+          <td>熱帯の気候に育つ植物の花から抽出した精油です。エキゾチックな南国を思わせる甘い香りです。リラックス効果、催淫効果があるので、タイミング法の時などにおすすめです。濃厚な香りなので、過度な使用での頭痛、吐き気に注意が必要です。</td></tr>
+          <tr><th>ラベンダー</th>
+          <td>しそ科の植物の葉と花から抽出した精油です。優れた鎮静効果があり、寝つきをよくします。自律神経のバランスをとったり、全身の免疫力をあげる効果もあります。</td></tr>
+          <tr><th>ジュニパー</th>
+          <td>ヒノキ科の樹木の実から抽出された精油です。あまり聞きなれない名前だと思いますが、実はお酒の「ジン」の香りです。発汗を促し、利尿作用があり、デットクス作用、筋肉痛、月経痛などの緩和もできます。冷え性の方にとてもよい精油です。注意点は、腎臓を働かせるので腎臓の弱い方、糖尿病の方は使えません。健康な方でも毎日の使用はおすすめできません。</td></tr>
+        </table></div>
+<br>
+        <p>アロマテラピーを日々の生活の中に取り入れて、セルフケアに役立てていただけたら幸いです。「自分の症状に合った精油の種類は？」「効果的な使用方法は？」など、詳しく知りたい方はお気軽にお声を掛けてください。</p>
+
+
+      <div class="CB"></div>
+      <div class="ToP"><a href="#page"><img src="/media/ui/arrow2.gif" alt="">ページの先頭へ</a></div>
+    </section>
+    </article>
+
+<?php
+	include(PUBLIC_HTML_PATH.'/include/footer01.html');
+?>
+
+  </div>
+
+<?php
+	include(PUBLIC_HTML_PATH.'/include/footer02.html');
+?>
+</div><!-- wrapper -->
+</div><!-- page -->
+
+<script type="text/javascript" src="/media/ws/engine1/wowslider.js"></script>
+<script type="text/javascript" src="/media/ws/engine1/script.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34510350-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+</body>
+</html>

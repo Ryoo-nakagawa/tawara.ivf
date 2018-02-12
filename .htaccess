@@ -1,0 +1,58 @@
+Options +Includes
+Options +ExecCGI
+ErrorDocument 404 /404.html
+
+AddType application/x-httpd-php .php .html
+
+SetOutputFilter DEFLATE
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|ico)$ no-gzip dont-vary
+Header append Vary User-Agent env=!dont-vary
+
+<Files ~ ".(gif|jpe?g|png|ico)$">
+	Header set Cache-Control "max-age=604800, public"
+</Files>
+
+<Files ~ ".(css|js)$">
+  Header set Cache-Control "max-age=43200"
+</Files>
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^(tawara-ivf\.jp)(:80)? [NC]
+RewriteRule ^(.*) http://www.tawara-ivf.jp/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://www.tawara-ivf.jp/$1 [R=301,L]
+
+RewriteRule ^index.php$ http://www.tawara-ivf.jp/index.html [R=301,L]
+
+RewriteRule \.php$ - [L,E=X_CACHE_PATTERN1:]
+RewriteRule \.html$ - [L,E=X_CACHE_PATTERN2:]
+RewriteRule \.(css|js)$ - [L,E=X_CACHE_PATTERN3:]
+RewriteRule \.(gif|jpe?g|png)$ - [L,E=X_CACHE_PATTERN4:]
+
+# For dynamic contents
+Header set Cache-Control "no-cache" env=X_CACHE_PATTERN1
+Header unset Expires env=X_CACHE_PATTERN1
+Header unset Last-Modified env=X_CACHE_PATTERN1
+Header unset Etag env=X_CACHE_PATTERN1
+
+# For HTML files
+Header set Cache-Control "max-age=0" env=X_CACHE_PATTERN2
+Header set Expires "Mon, 26 Jul 1997 05:00:00 GMT" env=X_CACHE_PATTERN2
+
+# For CSS,JavaScript files
+Header set Cache-Control "max-age=600" env=X_CACHE_PATTERN3
+
+# For Image files
+Header set Cache-Control "max-age=86400" env=X_CACHE_PATTERN4
+
+order deny,allow
+
+
